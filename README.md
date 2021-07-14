@@ -5,3 +5,4 @@ Repo para el código de backend del segundo trabajo práctico obligarotio del pr
 ## Contributors:
 
 - Daniela Garcia Nistor
+- Reinid Valarino
