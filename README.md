@@ -1,7 +1,8 @@
-# tpo2-backend
+# TPO2-BackEnd
 
-Repo para el código de backend del segundo trabajo práctico obligarotio del programa codo a codo de la Ciudad de Buenos Aires
+Repo para el código de backend del segundo trabajo práctico obligarotio del programa Codo a Codo de la Ciudad de Buenos Aires.
 
-## Contribuyentes
+## Contributors:
 
+- Daniela Garcia Nistor
 - Reinid Valarino
