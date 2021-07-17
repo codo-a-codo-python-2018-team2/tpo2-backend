@@ -7,7 +7,9 @@ def gretting(request):
 
 def natalia(request):
     return HttpResponse("Respuesta creada por Natalia")
-  
+
 def sofia(request):
     return HttpResponse("Esta es la respuesta de Sofía Ferro")
 
+def jose(request):
+    return HttpResponse("Esta es la respuesta creada por Jose Guevara")
