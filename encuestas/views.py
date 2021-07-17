@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def gretting(request):
     return HttpResponse("Hello world from Django for Codo a Codo 4.0")
+
+def jose(request):
+    return HttpResponse("Esta es la respuesta creada por Jose Guevara")
