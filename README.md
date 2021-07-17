@@ -9,4 +9,3 @@ Repo para el código de backend del segundo trabajo práctico obligarotio del pr
 - Jose Salvador Guevara Lunar
 - Sofía Ferro 
 - Natalia Mendoza
-
