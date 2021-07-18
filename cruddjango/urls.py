@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from encuestas.views import gretting, natalia, sofia, jose
+from encuestas.views import gretting, natalia, sofia, jose, reinid
 
 
 urlpatterns = [
@@ -24,4 +24,5 @@ urlpatterns = [
     path('natalia/', natalia),
     path('sofia/', sofia),
     path('jose/', jose),
+    path('reinid/', reinid)
 ]
