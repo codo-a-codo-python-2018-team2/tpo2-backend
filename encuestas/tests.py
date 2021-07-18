@@ -17,3 +17,8 @@ class MyIntegrationTest(TestCase):
     def testSatusCodeHelloWorld(self):
         response = self.client.get("/users/")
         self.assertEqual(response.status_code, 200 )
+
+    def testProbarUrlSofia(self):
+        response = self.client.get("/sofia/")
+        self.assertContains(response , "Esta es la respuesta de Sofía Ferro")
+
