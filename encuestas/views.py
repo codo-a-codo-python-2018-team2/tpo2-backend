@@ -13,3 +13,6 @@ def sofia(request):
 
 def jose(request):
     return HttpResponse("Esta es la respuesta creada por Jose Guevara")
+
+def reinid(request):
+    return HttpResponse("Esta es la respuesta creada por Reinid Valarino")
