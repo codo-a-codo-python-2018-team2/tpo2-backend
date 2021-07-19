@@ -9,7 +9,7 @@ class MyIntegrationTest(TestCase):
             Inicializa el set de pruebas.
         '''
         return super().setUp()
-    
+
     def testHelloWrold(self):
         response = self.client.get("/users/")
         self.assertContains(response , "Hello world from Django for Codo a Codo 4.0")
@@ -22,3 +22,6 @@ class MyIntegrationTest(TestCase):
         response = self.client.get("/sofia/")
         self.assertContains(response , "Esta es la respuesta de Sofía Ferro")
 
+    def testUrlJose(self):
+        response = self.client.get("/jose/")
+        self.assertContains(response, "Esta es la respuesta creada por Jose Guevara")
