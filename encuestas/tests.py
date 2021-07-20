@@ -25,3 +25,7 @@ class MyIntegrationTest(TestCase):
     def testUrlJose(self):
         response = self.client.get("/jose/")
         self.assertContains(response, "Esta es la respuesta creada por Jose Guevara")
+    
+    def testProbarUrlReinid(self):
+        response = self.client.get("/reinid/")
+        self.assertContains(response, "Esta es la respuesta creada por Reinid Valarino")
