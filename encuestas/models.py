@@ -8,3 +8,4 @@ class User(models.Model):
     dni = models.PositiveIntegerField()
     nombre= models.CharField(max_length=100)
     apellido = models.CharField(max_length=100, null=True)
+    fecha_nacimiento= models.DateField(auto_now=True)
